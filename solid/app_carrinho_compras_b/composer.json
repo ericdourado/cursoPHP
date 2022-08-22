@@ -1,0 +1,17 @@
+{
+    "name": "ericd/app_carrinho_compras",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eric",
+            "email": "eric.santos@codenapp.com"
+        }
+    ],
+    "require": {}
+    
+}
