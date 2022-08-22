@@ -22,10 +22,22 @@ class Item
     }
     public function setDescricao(string $descricao)
     {
-        $this->valor = $descricao;
+        $this->descricao = $descricao;
     }
     public function setValor(float $valor)
     {
         $this->valor = $valor;
+    }
+    public function itemValido()
+    {
+        if($this->getDescricao() == "")
+        {
+            return false;
+        }
+        if($this->valor <= 0)
+        {
+            return false;
+        }
+        return true;
     }
 }
