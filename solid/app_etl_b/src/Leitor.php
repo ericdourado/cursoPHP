@@ -2,10 +2,6 @@
 
 namespace CodeDev46\AppEtl;
 
-use CodeDev46\AppEtl\extrator\Txt;
-use CodeDev46\AppEtl\extrator\Csv;
-use CodeDev46\AppEtl\extrator\Arquivo;
-
 class Leitor{
     private $diretorio;
     private $arquivo;
